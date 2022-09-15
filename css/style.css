@@ -132,6 +132,48 @@ img {
 
     .site-header,
     .container {
-        max-width: 768px
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .site-header,
+    .container,
+    .why-us {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        margin: 0 0 4rem 0;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lessons .col,
+    .steps .col {
+        width: 80%;
+
+    }
+
+    .why-us .col-left,
+    .why-us .col-right {
+        width: 100%;
+    }
+
+    .why-us .col-right {
+        margin-top: 4rem;
     }
 }
