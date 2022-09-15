@@ -128,12 +128,10 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-@media screen and (max-width:768px) {
-    body {
-        width: 1140px;
-    }
+@media screen and (max-width: 768px) {
 
-    h1 {
-        font-size: 4rem;
+    .site-header,
+    .container {
+        max-width: 768px
     }
 }
