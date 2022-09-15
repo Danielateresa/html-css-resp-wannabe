@@ -128,12 +128,22 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+/*#region responsive tra 768px e 1160px*/
+@media screen and (min-width: 768px) and (max-width: 1160px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+/*#endregion responsive tra 768px e 1160px*/
+
 /*#region responsive fino a 768px*/
 @media screen and (max-width: 768px) {
 
     .site-header,
-    .container {
-        max-width: 768px;
+    .container,
+    .row {
+        max-width: 100%;
     }
 }
 
@@ -182,12 +192,3 @@ img {
 }
 
 /*#endregion responsive fino a 768px*/
-
-/*#region responsive tra 768px e 1160px*/
-@media screen and (min-width: 768px) and (max-width: 1160px) {
-    .container {
-        max-width: 100%;
-    }
-}
-
-/*#endregion responsive tra 768px e 1160px*/
