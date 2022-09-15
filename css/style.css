@@ -190,9 +190,26 @@ img {
         margin-top: 4rem;
     }
 
-    body {
+    .why-us {
         background: #222222;
+        margin-bottom: 0;
+        ;
     }
+
+    .steps {
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        margin-bottom: 2rem;
+    }
+
+    .why-us h2,
+    .steps h2 {
+        padding-top: 3rem;
+    }
+
 }
 
 /*#endregion responsive fino a 768px*/
