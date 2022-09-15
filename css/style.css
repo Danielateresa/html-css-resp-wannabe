@@ -189,6 +189,10 @@ img {
     .why-us .col-right {
         margin-top: 4rem;
     }
+
+    body {
+        background: #222222;
+    }
 }
 
 /*#endregion responsive fino a 768px*/
