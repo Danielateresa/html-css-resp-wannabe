@@ -128,6 +128,7 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+/*#region responsive fino a 768px*/
 @media screen and (max-width: 768px) {
 
     .site-header,
@@ -136,6 +137,8 @@ img {
     }
 }
 
+/*#endregion responsive fino a 768px*/
+/*#region responsive fino a 480px*/
 @media screen and (max-width: 480px) {
 
     .site-header,
@@ -177,3 +180,14 @@ img {
         margin-top: 4rem;
     }
 }
+
+/*#endregion responsive fino a 768px*/
+
+/*#region responsive tra 768px e 1160px*/
+@media screen and (min-width: 768px) and (max-width: 1160px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+/*#endregion responsive tra 768px e 1160px*/
